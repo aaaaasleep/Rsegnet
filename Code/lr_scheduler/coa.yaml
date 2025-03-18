@@ -1,0 +1,13 @@
+# @package _group_
+class: COALRScheduler
+params:
+  initial_lr: 0.1        # 初始学习率
+  max_lr: 0.2            # 最大学习率
+  min_lr: 0.001          # 最小学习率
+  steps_per_epoch: 100   # 每个 epoch 的步数
+  population_size: 50    # 搜索代理的数量
+  max_iterations: 100    # 最大迭代次数
+  alpha: 1.0             # COA 参数 alpha
+  beta: 1.0              # COA 参数 beta
+  gamma: 1.0             # COA 参数 gamma
+
